@@ -41,6 +41,7 @@ public class Detect {
                 .putAll(multiMap)
                 .build();
 
+        System.out.println("-------------------------------------------------");
         for (Map.Entry<Float, String> entry : immutableListMultimap.entries()) {
             String value = entry.getValue();
             Float key = entry.getKey();
@@ -52,7 +53,7 @@ public class Detect {
             }
 
 
-            if (value.length() < 4) {
+            if (value.length() < 3) {
                 System.out.println("\t" + value + "\t\t\t(" + formattedKey + "%)");
             }
             else if (value.length() < 8) {
@@ -67,7 +68,9 @@ public class Detect {
         List<String> opponentsDeck = fromFileToList(highestAccuracyDeckName);
         assert opponentsDeck != null;
         System.out.println("-------------------------------------------------");
-        opponentsDeck.forEach(System.out::println);
+        System.out.println("Remaining cards: ");
+        System.out.println("-------------------------------------------------");
+        printRemainingCard(opponentsDeck);
         System.out.println("-------------------------------------------------");
     }
 
@@ -123,5 +126,28 @@ public class Detect {
 
     private int countOccurrencesPlayedCards(List<String> deck, String card) {
         return Collections.frequency(deck, card);
+    }
+
+    private void printRemainingCard(List<String> predictedDeck) {
+        for (String card : predictedDeck) {
+            String cardName = card.substring(2);
+            int count = countOccurrencesPlayedCards(opponentPlayedCards, cardName);
+            //System.out.println(cardName);
+            // If there's only 1 occurrence of a specific card.
+            if ((card.contains("1") && count == 1) || (card.contains("2") && count == 2)) {
+                System.out.print("");
+            }
+            else if((card.contains("1") || card.contains("2")) && count == 0) {
+                System.out.println(card);
+            }
+            else if(card.contains("2") && count == 1) {
+                String temp = card.replace("2", "1");
+                System.out.println(temp);
+            }
+            else {
+                System.out.println(card);
+            }
+
+        }
     }
 }

@@ -28,4 +28,20 @@ public class Helper {
 
         return false;
     }
+
+    public static void clearTerminal() {
+        try {
+            if (System.getProperty("os.name").contains("Windows")) {
+                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+            }
+            else {
+                System.out.println("Your OS is not windows, clearing the terminal by printing 50 empty new lines.");
+                for (int i = 0; i < 50; i++) {
+                    System.out.println();
+                }
+            }
+        } catch (InterruptedException | IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

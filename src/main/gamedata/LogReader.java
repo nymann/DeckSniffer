@@ -1,6 +1,7 @@
 package main.gamedata;
 
 import main.deckdetection.Detect;
+import main.util.Helper;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,6 +29,7 @@ public class LogReader {
             line = logOutput.get(logLineNumber);
 
             if(line.contains("JUST_PLAYED") && line.contains("player=" + opponentPlayerNo)) {
+                Helper.clearTerminal();
 
                 if (isCardPartOfDeck(line)) {
                     // Add card to the playedCardList
@@ -126,20 +128,6 @@ public class LogReader {
     }
 
     private void newGameDetected() {
-        try {
-            if (System.getProperty("os.name").contains("Windows")) {
-                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-            }
-            else {
-                System.out.println("Your OS is not windows, clearing the terminal by printing 50 empty new lines.");
-                for (int i = 0; i < 50; i++) {
-                    System.out.println();
-                }
-            }
-        } catch (InterruptedException | IOException e) {
-            e.printStackTrace();
-        }
-
         System.out.println("NEW GAME\n");
 
         opponentPlayedCards.clear();
@@ -172,7 +160,5 @@ public class LogReader {
         return cardId <= 67;
     }
 
-    private String getOpponentBattlenetName(String line) {
-        return line.substring((line.indexOf("name=") + 5), line.indexOf("] tag=MU"));
-    }
+
 }
