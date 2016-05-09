@@ -1,16 +1,18 @@
 package main.gamedata;
 
+import javafx.application.Application;
 import main.deckdetection.Detect;
+import main.gui.GetDirectory;
 import main.util.Helper;
 
 import java.io.File;
-import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
 public class LogReader {
+    private String pathTemp;
     public int opponentPlayerNo = 0;
     public String opponentClass = "";
     public List<String> opponentPlayedCards = new ArrayList<>();
@@ -64,12 +66,13 @@ public class LogReader {
             if (file.exists() && !file.isDirectory()) {
                 return Files.readAllLines(Paths.get(pathToFile));
             } else {
-                // TODO:(Kristian)
-                // The out_log.txt file does not exist, we should notify the user with a warning pop up.
-                System.out.println(pathToFile + " does not exist!");
+                // The out_log.txt file does not exist, we should let the user choose the path.
+                Application.launch(GetDirectory.class);
+                System.out.println("sup");
+                return Files.readAllLines(Paths.get(pathTemp));
             }
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
@@ -160,5 +163,7 @@ public class LogReader {
         return cardId <= 67;
     }
 
-
+    public void setPathTemp(String pathTemp) {
+        this.pathTemp = pathTemp;
+    }
 }
