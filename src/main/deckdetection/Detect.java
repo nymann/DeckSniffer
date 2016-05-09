@@ -116,8 +116,13 @@ public class Detect {
     }
 
     private Boolean doesDeckContainCard(List<String> deckToTest, String playedCard) {
+        int howManyTimesDidWePlayThisCard = countOccurrencesPlayedCards(opponentPlayedCards, playedCard);
+
         for (String line : deckToTest) {
-            if (line.contains(playedCard)) {
+            if (line.contains(playedCard) && line.contains("2")) {
+                return true;
+            }
+            else if(line.contains(playedCard) && line.contains("1") && howManyTimesDidWePlayThisCard != 2) {
                 return true;
             }
         }
