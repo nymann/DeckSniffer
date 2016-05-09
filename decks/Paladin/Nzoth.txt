@@ -1,23 +1,20 @@
-0	Forbidden Healing	1
-1	Humility	1
-1	Sir Finley Mrrgglton	0.5
-2	Acidic Swamp Ooze	1
-2	Doomsayer	2
-2	Equality	2
-2	Wild Pyromancer	2
-3	Acolyte of Pain	1.5
-3	Aldor Peacekeeper	2
-3	Earthen Ring Farseer	0.5
-4	Consecration	2
-4	Keeper of Uldaman	2
-4	Sen'jin Shieldmasta	1
-4	Truesilver Champion	2
-5	Harrison Jones	0.5
-5	Solemn Vigil	1.5
-5	Stampeding Kodo	1.5
-6	Cairne Bloodhoof	1
-6	Sylvanas Windrunner	1
-8	Lay on Hands	1
-8	Ragnaros Lightlord	1
-8	Tirion Fordring	1
-10	N'Zoth the Corruptor	1
+2 Forbidden Healing
+1 Humility
+2 Doomsayer
+2 Equality
+2 Wild Pyromancer
+2 Acolyte of Pain
+2 Aldor Peacekeeper
+1 Harvest Golem
+2 Consecration
+1 Keeper of Uldaman
+1 Spellbreaker
+2 Truesilver Champion
+1 Harrison Jones
+2 Solemn Vigil
+2 Stampeding Kodo
+1 Cairne Bloodhoof
+1 Sylvanas Windrunner
+1 Ragnaros, Lightlord
+1 Tirion Fordring
+1 N'Zoth, the Corruptor

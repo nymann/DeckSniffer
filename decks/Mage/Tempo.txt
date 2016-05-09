@@ -1,32 +1,17 @@
-0	Forbidden Flame	0.5
-1	Arcane Blast	1.5
-1	Arcane Missiles	1.75
-1	Mana Wyrm	2
-1	Mirror Image	0.5
-2	Bloodmage Thalnos	0.25
-2	Cult Sorcerer	0.5
-2	Frostbolt	2
-2	Loot Hoarder	0.5
-2	Sorcerer's Apprentice	2
-3	Arcane Intellect	1.5
-3	Brann Bronzebeard	0.25
-3	Flamewaker	2
-3	Forgotten Torch	0.5
-3	Kirin Tor Mage	0.25
-3	Mirror Entity	2
-3	Spellslinger	1
-3	Twilight Flamecaller	0.25
-4	Fireball	2
-4	Polymorph	0.25
-4	Water Elemental	1
-5	Azure Drake	1.5
-5	Cabalist's Tome	1.25
-5	Ethereal Conjurer	1.25
-5	Servant of Yogg-Saron	0.5
-6	Ancient Harbinger	0.25
-6	Emperor Thaurissan	0.5
-6	Faceless Summoner	1.5
-7	Archmage Antonidas	0.75
-7	Flamestrike	0.5
-8	Rhonin	0.25
-10	Yogg-Saron Hope's End	0.75
+2 Arcane Blast
+2 Arcane Missiles
+2 Mana Wyrm
+2 Mirror Image
+2 Cult Sorcerer
+2 Frostbolt
+2 Sorcerer's Apprentice
+2 Arcane Intellect
+2 Flamewaker
+2 Fireball
+2 Water Elemental
+2 Azure Drake
+2 Ethereal Conjurer
+1 Faceless Summoner
+1 Archmage Antonidas
+1 Flamestrike
+1 Ragnaros the Firelord

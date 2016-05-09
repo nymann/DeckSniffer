@@ -1,29 +1,16 @@
-0	Innervate	1
-1	Living Roots	2
-1	Raven Idol	1
-2	Darnassus Aspirant	0.5
-2	Druid of the Saber	1
-2	Garrison Commander	0.5
-2	Jeweled Scarab	1
-2	Mark of Y'Shaarj	2
-2	Power of the Wild	2
-2	Wild Growth	1
-2	Wrath	2
-3	Addled Grizzly	0.5
-3	Druid of the Flame	1
-3	Mounted Raptor	1.5
-4	Fandral Staghelm	0.5
-4	Mire Keeper	1
-4	Savage Combatant	1.5
-4	Swipe	2
-4	Wildwalker	1.5
-5	Druid of the Claw	2
-5	Nexus-Champion Saraad	0.5
-5	Nourish	0.5
-6	Emperor Thaurisssan	0.5
-6	Justicar Trueheart	0.5
-6	Kodorider	0.5
-6	Sylvanas Windrunner	0.5
-7	Ancient of War	0.5
-9	Cenarius	0.5
-10	Frost Giant	0.5
+2 Innervate
+2 Living Roots
+2 Raven Idol
+2 Druid of the Saber
+2 Mark of Y'Shaarj
+2 Power of the Wild
+2 Wrath
+2 Druid of the Flame
+1 Mounted Raptor
+2 Savage Roar
+1 Fandral Staghelm
+2 Savage Combatant
+2 Swipe
+2 Violet Teacher
+2 Azure Drake
+2 Druid of the Claw

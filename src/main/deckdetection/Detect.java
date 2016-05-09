@@ -1,10 +1,18 @@
 package main.deckdetection;
 
+import com.google.common.collect.ImmutableListMultimap;
+import com.google.common.collect.ListMultimap;
+import com.google.common.collect.MultimapBuilder;
+import com.google.common.collect.Ordering;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
 
 public class Detect {
     private String opponentClass;
@@ -17,22 +25,50 @@ public class Detect {
 
     public void run() {
         List<String> allClassDecks = listAllClassDecks();
-        Map<Float, String> map = new TreeMap<>(Collections.reverseOrder());
+        float temp = 0;
+        String highestAccuracyDeckName = "";
+
+        ListMultimap<Float, String> multiMap = MultimapBuilder.treeKeys().arrayListValues().build();
         for (String deckName : allClassDecks) {
             List<String> deckToTest = fromFileToList(deckName);
             float accuracy = accuracyOfDeck(deckToTest);
-            System.out.println(deckName + " has an accuracy of " + accuracy + "%. There shouls be " + allClassDecks.size() + "");
-            map.put(accuracy, deckName);
+            multiMap.put(accuracy, deckName);
         }
 
-        for(Map.Entry<Float, String> entry : map.entrySet()) {
-            Float key = entry.getKey();
+        // sort the list.
+        ImmutableListMultimap<Float, String> immutableListMultimap = new ImmutableListMultimap.Builder<Float, String>()
+                .orderKeysBy(Ordering.natural().reversed())
+                .putAll(multiMap)
+                .build();
+
+        for (Map.Entry<Float, String> entry : immutableListMultimap.entries()) {
             String value = entry.getValue();
-            String formattedKey = String.format("%.02f", key);
-            System.out.println("\t" + value + "\t(" + formattedKey + "%)");
+            Float key = entry.getKey();
+            String formattedKey = String.format("%.01f", key);
+
+            if (key > temp) {
+                temp = key;
+                highestAccuracyDeckName = value;
+            }
+
+
+            if (value.length() < 4) {
+                System.out.println("\t" + value + "\t\t\t(" + formattedKey + "%)");
+            }
+            else if (value.length() < 8) {
+                System.out.println("\t" + value + "\t\t(" + formattedKey + "%)");
+            } else {
+                System.out.println("\t" + value + "\t(" + formattedKey + "%)");
+            }
         }
 
-        System.out.println("\t\t\tMap size: " + map.size());
+        // Call function that prints out the cards contained in the highest accuracy deck.
+        //System.out.println(highestAccuracyDeckName);
+        List<String> opponentsDeck = fromFileToList(highestAccuracyDeckName);
+        assert opponentsDeck != null;
+        System.out.println("-------------------------------------------------");
+        opponentsDeck.forEach(System.out::println);
+        System.out.println("-------------------------------------------------");
     }
 
     private List<String> listAllClassDecks() {
@@ -43,7 +79,7 @@ public class Detect {
         List<String> allClassDecks = new ArrayList<>();
 
         assert listOfFiles != null;
-        for (File file: listOfFiles) {
+        for (File file : listOfFiles) {
             if (file.isFile()) {
                 deckName = file.getName();
                 deckName = deckName.substring(0, deckName.indexOf("."));
@@ -67,13 +103,10 @@ public class Detect {
     private float accuracyOfDeck(List<String> deckToTest) {
         int correct = 0;
         int total = opponentPlayedCards.size();
-        //System.out.println("__");
-        for (String playedCard: opponentPlayedCards) {
+        for (String playedCard : opponentPlayedCards) {
             if (doesDeckContainCard(deckToTest, playedCard)) {
-                //System.out.println(playedCard + " is a part of the deck.");
                 correct++;
             }
-            //System.out.println(correct + "/" + total);
         }
 
         return ((((float) correct) / ((float) total)) * 100);
@@ -86,5 +119,9 @@ public class Detect {
             }
         }
         return false;
+    }
+
+    private int countOccurrencesPlayedCards(List<String> deck, String card) {
+        return Collections.frequency(deck, card);
     }
 }

@@ -1,32 +1,19 @@
-1	Blood to Ichor	0.5
-1	Execute	2
-1	Shield Slam	2
-1	Whirlwind	0.25
-2	Armorsmith	0.5
-2	Battle Rage	0.5
-2	Beckoner of Evil	0.75
-2	Cruel Taskmaster	0.5
-2	Fiery War Axe	2
-2	Revenge	0.75
-2	Slam	1.5
-3	Acolyte of Pain	1.5
-3	Bash	1.5
-3	Brann Bronzebeard	0.5
-3	Disciple of C'Thun	2
-3	Ravaging Ghoul	0.5
-3	Shield Block	1.5
-3	Twilight Elder	0.75
-4	Bloodhoof Brave	0.25
-4	C'Thun's Chosen	1.5
-4	Elise Starseeker	0.25
-5	Brawl	1
-5	Crazed Worshipper	1
-5	Harrison Jones	0.25
-6	Justicar Trueheart	0.75
-7	Ancient Shieldbearer	2
-7	Gorehowl	0.75
-7	Malkorok	0.25
-7	Twin Emperor Vek'lor	1
-8	Doomcaller	0.25
-8	Grommash Hellscream	0.25
-10	C'Thun	1
+2 Execute
+1 Whirlwind
+2 Armorsmith
+2 Battle Rage
+2 Beckoner of Evil
+1 Cruel Taskmaster
+2 Fiery War Axe
+2 Slam
+1 Acolyte of Pain
+1 Brann Bronzebeard
+1 Ravaging Ghoul
+2 Twilight Elder
+2 Bloodhoof Brave
+2 Crazed Worshipper
+1 Sylvanas Windrunner
+1 Twin Emperor Vek'lor
+1 Grommash Hellscream
+1 Ragnaros the Firelord
+1 C'Thun

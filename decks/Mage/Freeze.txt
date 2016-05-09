@@ -1,17 +1,18 @@
-1	Ice Lance	2
-2	Bloodmage Thalnos	1
-2	Doomsayer	2
-2	Frostbolt	2
-2	Loot Hoarder	1
-2	Novice Engineer	2
-3	Acolyte of Pain	2
-3	Arcane Intellect	2
-3	Forgotten Torch	2
-3	Frost Nova	2
-3	Ice Barrier	2
-3	Ice Block	2
-4	Cone of Cold	1
-4	Fireball	2
-6	Emperor Thaurissan	1
-9	Alextrasza	1
-10	Pyroblast	1
+2 Ice Lance
+1 Bloodmage Thalnos
+2 Doomsayer
+2 Frostbolt
+2 Loot Hoarder
+2 Novice Engineer
+1 Acolyte of Pain
+2 Arcane Intellect
+2 Forgotten Torch
+2 Frost Nova
+2 Ice Barrier
+2 Ice Block
+2 Fireball
+2 Blizzard
+1 Emperor Thaurissan
+1 Flamestrike
+1 Alexstrasza
+1 Pyroblast

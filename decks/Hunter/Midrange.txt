@@ -1,22 +1,18 @@
-1	Abusive Sergeant	0.5
-1	Fiery Bat	2
-1	Hunter's Mark	.5
-1	Tracking	1
-2	Flame Juggler	0.5
-2	Freezing Trap	1
-2	Huge Toad	2
-2	King's Elekk	1
-2	Knife Juggler	1
-2	Quick Shot	0.5
-3	Animal Companion	2
-3	Carrion Grub	1
-3	Deadly Shot	0.5
-3	Eaglehorn Bow	1
-3	Kill Command	2
-3	Unleash the Hounds	2
-4	Houndmaster	2
-4	Infested Wolf	2
-5	Princess Huhuran	0.5
-5	Ram Wrangler	2
-6	Savannah Highmane	2
-8	Call of the Wild	2
+1 Hunter's Mark
+2 Fiery Bat
+1 Explosive Trap
+1 Freezing Trap
+2 Huge Toad
+1 King's Elekk
+1 Knife Juggler
+2 Quick Shot
+2 Animal Companion
+2 Eaglehorn Bow
+2 Kill Command
+2 Unleash the Hounds
+2 Houndmaster
+2 Infested Wolf
+1 Princess Huhuran
+2 Ram Wrangler
+2 Savannah Highmane
+2 Call of the Wild
