@@ -1,0 +1,29 @@
+0	Innervate	2
+1	Gadgetzan Jouster	0.25
+1	Living Roots	1.5
+2	Beckoner of Evil	1.75
+2	Darnassus Aspirant	0.75
+2	Wild Growth	2
+2	Wrath	1.5
+3	Brann Bronzebeard	0.25
+3	Disciple of C'Thun	2
+3	Feral Rage	0.5
+3	Twilight Elder	1.5
+4	C'Thun's Chosen	1
+4	Fandral Staghelm	0.25
+4	Klaxxi Amber-Weaver	1.5
+4	Mire Keeper	1.5
+4	Swipe	2
+5	Azure Drake	1
+5	Crazed Worshipper	0.5
+5	Druid of the Claw	1.5
+5	Nourish	0.25
+6	Ancient Harbinger	0.25
+6	Dark Arakkoa	2
+6	Sylvanas Windrunner	0.25
+6	The Black Knight	0.25
+7	Ancient of War	0.5
+7	Twin Emperor Vek'lor	0.75
+8	Doomcaller	0.5
+8	Ironbark Protector	0.5
+10	C'Thun	1

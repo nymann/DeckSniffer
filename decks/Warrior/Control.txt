@@ -1,0 +1,21 @@
+1	Blood to Ichor	1
+1	Execute	2
+1	Shield Slam	2
+2	Doomsayer	1
+2	Fiery War Axe	2
+2	Revenge	2
+2	Slam	1
+3	Bash	2
+3	Fierce Monkey	2
+3	Ravaging Ghoul	2
+3	Shield Block	2
+4	Elise Starseeker	1
+5	Big Game Hunter	1
+5	Brawl	2
+5	Harrison Jones	1
+6	Justicar Trueheart	1
+6	Sylvanas Windrunner	1
+6	The Black Knight	1
+7	Gorehowl	1
+7	Obsidian Destroyer	1
+8	Grommash Hellscream	1

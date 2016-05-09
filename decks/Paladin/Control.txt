@@ -1,0 +1,20 @@
+0	Forbidden Healing	1
+1	Humility	1
+2	Acidic Swamp Ooze	1
+2	Doomsayer	2
+2	Equality	2
+2	Holy Light	1
+2	Wild Pyromancer	2
+3	Aldor Peacekeeper	2
+3	Mind Control Tech	2
+4	Consecration	2
+4	Elise Starseeker	1
+4	Sen'jin Shieldmasta	2
+4	Truesilver Champion	2
+5	Solemn Vigil	2
+5	Tuskarr Jouster	2
+7	Eadric the Pure	1
+7	Guardian of Kings	1
+8	Lay on Hands	1
+8	Ragnaros Lightlord	1
+8	Tirion Fordring	1

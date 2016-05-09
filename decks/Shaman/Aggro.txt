@@ -1,0 +1,20 @@
+1	Abusive Sergeant	2
+1	Argent Squire	1.66
+1	Earth Shock	1
+1	Lightning Bolt	2
+1	Rockbiter Weapon	2
+1	Sir Finley Mrrgglton	1
+1	Tunnel Trogg	2
+2	Ancestral Knowledge	1.66
+2	Eternal Sentinel	1.33
+2	Flame Juggler	0.66
+2	Flametongue Totem	2
+2	Lava Shock	0.66
+2	Totem Golem	2
+3	Argent Horserider	2
+3	Feral Spirit	1.66
+3	Lava Burst	2
+3	Tuskarr Totemic	0.33
+3	Unbound Elemental	0.66
+4	Flamewreathed Faceless	1.33
+5	Doomhammer	2

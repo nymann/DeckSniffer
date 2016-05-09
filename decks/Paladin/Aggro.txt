@@ -1,0 +1,27 @@
+1	Abusive Sergeant	1.33
+1	Argent Squire	2
+1	Blessing of Might	0.33
+1	Selfless Hero	2
+2	Argent Protector	1.66
+2	Bilefin Tidehunter	1.33
+2	Equality	1
+2	Huge Toad	0.66
+2	Knife Juggler	0.66
+2	Loot Hoarder	0.66
+2	Twisted Worgen	1.33
+3	Aldor Peacekeeper	0.33
+3	Argent Horserider	2
+3	Blood Knight	1.33
+3	Divine Favor	1.33
+3	Fjola Lightbane	0.33
+3	Rallying Blade	2
+3	Seal of Champions	1
+3	Steward of Darkshire	2
+4	Blessing of Kings	2
+4	Consecration	0.33
+4	Defender of Argus	0.66
+4	Keeper of Uldaman	1.33
+4	Truesilver Champion	1.33
+5	Leeroy Jenkins	0.33
+5	Stand Against Darkness	0.33
+8	Tirion Fordring	0.33

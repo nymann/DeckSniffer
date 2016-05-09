@@ -1,0 +1,27 @@
+0	Circle of Healing	1.33
+1	Northshire Cleric	2
+1	Power Word: Shield	2
+2	Beckoner of Evil	2
+2	Flame Juggler	0.66
+2	Loot Hoarder	0.66
+2	Shadow Word: Pain	0.33
+2	Wild Pyromancer	0.66
+3	Acolyte of Pain	0.33
+3	Brann Bronzebeard	0.66
+3	Disciple of C'Thun	1.66
+3	Injured Blademaster	0.66
+3	Shadow Word: Death	2
+3	Twilight Elder	1.66
+4	Auchenai Soulpriest	1.33
+4	C'Thun's Chosen	0.66
+4	Hooded Acolyte	2
+5	Darkshire Alchemist	1
+5	Excavated Evil	0.33
+5	Holy Nova	1.66
+5	Twilight Darkmender	2
+6	Cabal Shadow Priest	0.33
+6	Entomb	0.66
+6	Justicar Trueheart	0.33
+7	Twin Emperor Vek'lor	1
+8	Doomcaller	1
+10	C'Thun	1

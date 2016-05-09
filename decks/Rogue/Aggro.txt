@@ -1,0 +1,16 @@
+0	Shadowstep	2
+1	Argent Squire	2
+1	Bladed Cultist	2
+1	Cold Blood	2
+1	Deadly Poison	2
+1	Pit Snake	2
+1	Southsea Deckhand	2
+2	Defias Ringleader	2
+2	Eviscerate	2
+2	Loot Hoarder	2
+2	Sap	2
+3	Coldlight Oracle	2
+3	SI:7 Agent	2
+3	Wolfrider	2
+4	Xaril, Poisoned Mind	1
+5	Leeroy Jenkins	1

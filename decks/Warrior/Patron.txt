@@ -1,0 +1,17 @@
+0	Inner Rage	2
+1	Blood to Ichor	2
+1	Execute	2
+1	Sir Finley Mrrgglton	0.5
+1	Whirlwind	2
+2	Armorsmith	2
+2	Battle Rage	2
+2	Fiery War Axe	2
+2	Slam	2
+3	Acolyte of Pain	2
+3	Frothing Berserker	2
+3	Ravaging Ghoul	2
+4	Bloodhoof Brave	2
+4	Kor'kron Elite	2
+5	Grim Patron	2
+8	Grommash Hellscream	1
+8	Ragnaros the Firelord	0.5

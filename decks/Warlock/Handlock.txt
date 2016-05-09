@@ -1,0 +1,19 @@
+1	Mortal Coil	2
+1	Soulfire	1
+2	Ancient Watcher	2
+2	Dark Peddler	2
+2	Sunfury Protector	2
+3	Earthen Ring Farseer	2
+4	Defender of Argus	2
+4	Hellfire	2
+4	Refreshment Vendor	2
+4	Shadowflame	1
+4	Spellbreaker	1
+4	Twilight Drake	2
+5	Big Game Hunter	1
+6	Emperor Thaurissan	1
+6	Siphon Soul	1
+6	Sylvanas Windrunner	1
+9	Lord Jaraxxus	1
+12	Mountain Giant	2
+25	Molten Giant	2

@@ -1,0 +1,27 @@
+1	Abusive Sergeant	0.5
+1	Argent Squire	1
+1	Lightning Bolt	1
+1	Primal Fusion	1
+1	Rockbiter Weapon	2
+1	Tunnel Trogg	1.75
+2	Flame Juggler	1
+2	Flametongue Totem	2
+2	Totem Golem	2
+3	Brann Bronzebeard	0.25
+3	Feral Spirit	1.75
+3	Hex	1.5
+3	Lightning Storm	1.25
+3	Mana Tide Totem	0.75
+3	Tuskarr Totemic	2
+4	Cult Master	0.25
+4	Dranei Totemcarver	1
+4	Fireguard Destroyer	0.5
+4	Flamewreathed Faceless	1
+4	Master of Evolution	0.5
+5	Azure Drake	0.5
+5	Bloodlust	0.25
+5	Doomhammer	1.5
+5	Thunder Bluff Valiant	0.75
+6	Fire Elemental	1.25
+6	The Mistcaller	0.75
+6	Thing from Below	2

@@ -1,0 +1,22 @@
+0	Forbidden Shaping	1
+1	Northshire Cleric	1.5
+1	Power Word: Shield	2
+1	Twilight Whelp	2
+2	Museum Curator	1.5
+2	Shadow Word: Pain	1
+2	Wyrmrest Agent	2
+3	Blackwing Technician	2
+3	Shadow Word: Death	1.5
+4	Shifting Shade	0.5
+4	Twilight Drake	0.5
+4	Twilight Guardian	2
+5	Azure Drake	2
+5	Blackwing Corruptor	2
+5	Holy Nova	2
+6	Cabal Shadow Priest	1.5
+6	Entomb	1.5
+6	Justicar Trueheart	0.5
+6	Sylvanas Windrunner	0.5
+8	Chromaggus	0.5
+9	Ysera	1
+10	Deathwing Dragonlord	1

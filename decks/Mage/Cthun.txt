@@ -1,0 +1,20 @@
+1	Arcane Missiles	2
+1	Mana Wyrm	2
+2	Beckoner of Evil	2
+2	Cult Sorcerer	2
+2	Frostbolt	2
+2	Sorcerer's Apprentice	1
+3	Arcane Intellect	2
+3	Brann Bronzebeard	0.5
+3	Disciple of C'Thun	2
+3	Twilight Elder	1.5
+4	C'Thun's Chosen	2
+4	Fireball	2
+4	Polymorph	1.5
+4	Sen'jin Shieldmasta	0.5
+5	Azure Drake	2
+6	Faceless Summoner	2
+6	Skeram Cultist	0.5
+7	Flamestrike	1
+7	Twin Emperor Vek'lor	0.5
+10	C'Thun	1
