@@ -9,7 +9,7 @@ public class Helper {
 
     }
 
-    private Boolean isProcessRunning(String exeName) {
+    public static Boolean isProcessRunning(String exeName) {
         try {
             String line;
             String pidInfo = "";

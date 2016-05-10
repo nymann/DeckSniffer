@@ -1,18 +1,25 @@
 package main;
 
 import main.gamedata.LogReader;
+import main.util.Helper;
 
 public class Boot {
     public Boot() {
         LogReader logReader = new LogReader();
 
-        while (true) {
-            logReader.readHearthstoneLog();
-            try {
-                Thread.sleep(200);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+        if (Helper.isProcessRunning("Hearthstone")) {
+            while (true) {
+                logReader.readHearthstoneLog();
+                try {
+                    Thread.sleep(200);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
+        }
+        else {
+            System.out.println("\nStart Hearthstone before you start DeckSniffer!");
+            System.exit(0);
         }
     }
 

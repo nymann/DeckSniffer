@@ -43,7 +43,7 @@ public class Detect {
                 .build();
 
         System.out.println("-----------------------------");
-        System.out.println("\tDeckname\tAccuracy");
+        System.out.println("Deckname\tAccuracy");
         System.out.println("-----------------------------");
         for (Map.Entry<Float, String> entry : immutableListMultimap.entries()) {
             String value = entry.getValue();
@@ -56,12 +56,12 @@ public class Detect {
             }
 
             if (value.length() < 3) {
-                System.out.println("\t" + value + "\t\t\t(" + formattedKey + "%)");
+                System.out.println(value + "\t\t\t(" + formattedKey + "%)");
             }
             else if (value.length() < 8) {
-                System.out.println("\t" + value + "\t\t(" + formattedKey + "%)");
+                System.out.println(value + "\t\t(" + formattedKey + "%)");
             } else {
-                System.out.println("\t" + value + "\t(" + formattedKey + "%)");
+                System.out.println(value + "\t(" + formattedKey + "%)");
             }
         }
 
