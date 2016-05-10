@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LogReader {
-    private String pathTemp;
     public int opponentPlayerNo = 0;
     public String opponentClass = "";
     public List<String> opponentPlayedCards = new ArrayList<>();
@@ -23,7 +22,7 @@ public class LogReader {
     }
 
     public void readHearthstoneLog() {
-        List<String> logOutput = getHearthstoneLogContent("C:/Program Files (x86)/Hearthstone/Hearthstone_Data/output_log.txt");
+        List<String> logOutput = getHearthstoneLogContent(GetDirectory.pathToLogFile);
         String line;
 
         assert logOutput != null;
@@ -55,7 +54,6 @@ public class LogReader {
             else if(line.contains("[Zone] ZoneChangeList.ProcessChanges() - processing index=0 change=powerTask=[power=[game=id=")) {
                 newGameDetected();
             }
-
             logLineNumber++;
         }
     }
@@ -65,11 +63,11 @@ public class LogReader {
             File file = new File(pathToFile);
             if (file.exists() && !file.isDirectory()) {
                 return Files.readAllLines(Paths.get(pathToFile));
-            } else {
+            }
+            else {
                 // The out_log.txt file does not exist, we should let the user choose the path.
                 Application.launch(GetDirectory.class);
-                System.out.println("sup");
-                return Files.readAllLines(Paths.get(pathTemp));
+                return Files.readAllLines(Paths.get(GetDirectory.pathToLogFile));
             }
 
         } catch (Exception e) {
@@ -161,9 +159,5 @@ public class LogReader {
         int cardId = Integer.valueOf(line);
 
         return cardId <= 67;
-    }
-
-    public void setPathTemp(String pathTemp) {
-        this.pathTemp = pathTemp;
     }
 }

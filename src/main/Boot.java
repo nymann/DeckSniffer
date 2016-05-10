@@ -9,7 +9,7 @@ public class Boot {
         while (true) {
             logReader.readHearthstoneLog();
             try {
-                Thread.sleep(50);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
