@@ -11,7 +11,7 @@ public class Boot {
             while (true) {
                 logReader.readHearthstoneLog();
                 try {
-                    Thread.sleep(200);
+                    Thread.sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
