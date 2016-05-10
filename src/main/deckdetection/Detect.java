@@ -17,6 +17,7 @@ import java.util.Map;
 public class Detect {
     private String opponentClass;
     private List<String> opponentPlayedCards;
+    private Boolean oneCopyOfCardAlreadyRegistered = false;
 
     public Detect(List<String> opponentPlayedCards, String opponentClass) {
         this.opponentClass = opponentClass;
@@ -41,7 +42,9 @@ public class Detect {
                 .putAll(multiMap)
                 .build();
 
-        System.out.println("-------------------------------------------------");
+        System.out.println("-----------------------------");
+        System.out.println("\tDeckname\tAccuracy");
+        System.out.println("-----------------------------");
         for (Map.Entry<Float, String> entry : immutableListMultimap.entries()) {
             String value = entry.getValue();
             Float key = entry.getKey();
@@ -69,11 +72,11 @@ public class Detect {
         else {
             List<String> opponentsDeck = fromFileToList(highestAccuracyDeckName);
             assert opponentsDeck != null;
-            System.out.println("-------------------------------------------------");
-            System.out.println("Remaining cards: ");
-            System.out.println("-------------------------------------------------");
+            System.out.println("-----------------------------");
+            System.out.println("Predict. remaining (" + opponentPlayedCards.size() + "/30)");
+            System.out.println("-----------------------------");
             printRemainingCard(opponentsDeck);
-            System.out.println("-------------------------------------------------");
+            System.out.println("-----------------------------");
         }
     }
 
@@ -128,6 +131,10 @@ public class Detect {
             else if(line.contains(playedCard) && line.contains("1") && howManyTimesDidWePlayThisCard != 2) {
                 return true;
             }
+            else if(line.contains(playedCard) && line.contains("1") && !oneCopyOfCardAlreadyRegistered) {
+                oneCopyOfCardAlreadyRegistered = !oneCopyOfCardAlreadyRegistered;
+                return true;
+            }
         }
         return false;
     }
@@ -141,9 +148,11 @@ public class Detect {
             String cardName = card.substring(2);
             int count = countOccurrencesPlayedCards(opponentPlayedCards, cardName);
 
-            // If there's only 1 occurrence of a specific card.
             if ((card.contains("1") && count == 1) || (card.contains("2") && count == 2)) {
                 System.out.print("");
+            }
+            else if((card.contains("1") && count == 2)) {
+                System.out.println("-" + card + ("!"));
             }
             else if((card.contains("1") || card.contains("2")) && count == 0) {
                 System.out.println(card);
